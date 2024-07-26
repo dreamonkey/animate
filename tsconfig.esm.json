@@ -1,0 +1,8 @@
+// Vite projects need ESM code, here we provide a ESM version of the package
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/esm",
+    "module": "esnext"
+  }
+}

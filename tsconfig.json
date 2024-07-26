@@ -6,7 +6,8 @@
     "sourceMap": true,
     "target": "esnext",
     "moduleResolution": "node",
-    "module": "esnext"
+    // JS Quasar projects using SSR need a CJS version
+    "module": "commonjs"
   },
   "include": [
     "src/exports.ts",
